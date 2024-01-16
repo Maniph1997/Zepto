@@ -1,0 +1,33 @@
+.main-div {
+    height: 300px;
+    width: 350px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    top: 40px;
+}
+
+
+
+.main-container {
+    position: relative;
+}
+
+.card-wrapper {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.card-wrapper img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
